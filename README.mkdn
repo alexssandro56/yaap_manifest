@@ -9,9 +9,9 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the YAAP trees, use a command like this:
 
-
+```bash
 repo init -u https://github.com/alexssandro56/yaap_manifest.git -b seventeen --git-lfs
-
+```
 Then to sync up:
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch
